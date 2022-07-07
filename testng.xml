@@ -3,7 +3,7 @@
 <suite name = "TestSuite">
   <test name = "Test Project for BDD">
     <classes>
-          <class name = "testRunner.CucumberTestRunner"/>
+          <class name = "testRunner.TestNGTestRunner"/>
      </classes>  
    </test>
 </suite>
