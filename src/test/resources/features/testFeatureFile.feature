@@ -1,9 +1,13 @@
-Feature: Sample test Feature File
-    Test Feature
+@FunTest
+Feature: This is a demo feature one
 
-Scenario: Sample test scenario file
+    Scenario: This is first scenario
+        Given Precondition is given
+        When Something is done
+        Then Something is expected
 
-    Given Test given step
-    When Test when step
-    Then Test then step
-    And Test and step
+    @smokeTest
+    Scenario: This is second scenario
+        Given Another precondition is given
+        When Something is done again
+        Then Something is expected again
