@@ -168,6 +168,15 @@
 			Step Hooks	   		= @BeforeStep @AfterStep = Executes before/after a step
 			Conditional Hooks   = @Before('tagname') @After('tagname') = Used to execute selected steps w.r.t the tags mentioned in the scenario. Also referred as Tagged Hooks
 
+	TAGS 
+
+		Used to organize Features and Scenarios = @TagName
+		- can have multiple tags or single tags
+		- can have combination of tags using AND OR 
+		- can skip scenarios having a specific tag
+
+		Can be placed above Feature, Scenario Outline ot Scenario
+
 	EXECUTION via CMD
 
 		- If MAVEN = mvn test
